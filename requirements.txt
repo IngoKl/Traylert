@@ -1,0 +1,6 @@
+infi.systray
+win10toast
+flask
+pycryptodomex
+jsonpickle
+click
