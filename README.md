@@ -14,7 +14,7 @@ Traylert has three main functions:
 
 ![Traylert Infrastructure](https://github.com/IngoKl/Traylert/blob/master/data/traylert-infra.png?raw=true "Traylert Infrastructure")
 
-In the simplest case, the client (local machine) just receives some basic information (e.g. free memory) from the server via HTTP. However, the server can also receive "alerts" (via HTTP POST) that are then downstreamed to the client and displaye via Windows Toast notications. 
+In the simplest case, the client (local machine) just receives some basic information (e.g. free memory) from the server via HTTP. However, the server can also receive "alerts" (via HTTP POST) that are then downstreamed to the client and displayed via *Windows Toast* notications. 
 
 Because SSL/TLS is not always available, the communication between the client and the server can be AES encrypted. While this, from a security standpoint, is not perfect, it should be sufficient for most use cases.
 
